@@ -50,14 +50,14 @@ body{
     bottom:40px;
 }
 .create{
-    width: 150px;
+    width: 100px;
     color:#0b57d0;
     background: none;
     border: none;
     padding: 0;
     font: inherit;
     cursor: pointer;
-    margin-right: 30px;
+    margin-right: 25px;
 }
 .next{
     width: 75px;
@@ -73,7 +73,9 @@ body{
 
 .login-h1{
     font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    font-weight: 400;
     font-size:36px;
+    margin-top: 0px;
 }
 .login-text{
     font-size:16px;
@@ -86,15 +88,18 @@ body{
     height: 28px;
     text-align: left;
     border-radius: 4px;
+    border-width: 1px;
     color: #1f1f1f;
     font-family: "Google Sans", roboto, "Noto Sans Myanmar UI", arial, sans-serif;
     font-size: 17px;
     margin: 1px 1px 0 1px;
     padding: 13px 15px;
-    padding-left: 24px;
+    padding-left: 15px;
     z-index: 1;
 }
-
+.input ::placeholder{
+    position: relative;
+}
 .lost{
     width: 150px;
     margin-top: 10px;
@@ -130,6 +135,7 @@ body{
     border-radius: 8px;
     padding: 10px;
     font-size:12px;
+    margin-right: -5px;
 }
 .help{
     width: 100px;
